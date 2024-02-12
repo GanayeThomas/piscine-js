@@ -5,4 +5,4 @@ function getAge(date) {
     var age = new Date(diff); 
     return Math.abs(age.getUTCFullYear() - 1970);
 }
-console.log(getAge(new Date(1990, 12, 6)));
+console.log(getAge(new Date(1900, 12, 2)));
