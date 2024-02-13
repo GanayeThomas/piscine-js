@@ -2,4 +2,4 @@
 
 setTimeout(() => {
     console.log("1 sec retard");
-}, 1000);
+}, 10000);
