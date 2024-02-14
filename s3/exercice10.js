@@ -10,7 +10,6 @@ function myPromise(num){
   })
 }
 
-
 myPromise(myArray[0])
   .then(x => myPromise(myArray[1]))
   .then(x => myPromise(myArray[2]))
